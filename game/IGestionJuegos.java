@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public interface IGestionJuegos extends Remote{
 	
-	public boolean selecionado(String nick) throws RemoteException;
+	public boolean selecionado(String nick)  throws RemoteException;
 	
 	public ArrayList<String> getListaJugadores() throws RemoteException;
 	
