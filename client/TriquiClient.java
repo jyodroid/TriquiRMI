@@ -11,7 +11,7 @@ public class TriquiClient {
 	private IGestionJuegos myGestor =  null;
 	private ITriquiGame myGame = null;
 	
-	public TriquiClient(String servidor) {
+	public TriquiClient( String servidor)  {
 		/*if (System.getSecurityManager()==null){
 			System.setSecurityManager(new SecurityManager());
 		}*/
