@@ -66,7 +66,7 @@ public class TriquiGame implements ITriquiGame{
     }
     
     public String testWinner() throws RemoteException{
-        String result ="N";
+        String result ="N ";
         
         if (board[0].equals(X) && board[1].equals(X) && board[2].equals(X))
             result = X;
