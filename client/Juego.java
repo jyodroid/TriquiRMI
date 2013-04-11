@@ -96,7 +96,7 @@ public class Juego{
 								}
 							}else{
 								opcion = 0;
-								System.out.println("No existe ese contrincante");
+								System.out.println("No existe ese  contrincante");
 							}
 						}
 						break;
