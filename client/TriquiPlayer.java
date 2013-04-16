@@ -73,7 +73,7 @@ public class TriquiPlayer{
         String input = "y";
         while (input.equals("y")) {
             play();
-            System.out.print("Continuar? (y/n) = ");
+            System.out.print("Desea Continuar? (y/n) = ");
             input = keyboard();
         }
     } 
